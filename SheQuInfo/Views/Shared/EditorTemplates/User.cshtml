@@ -4,7 +4,7 @@
         @Html.LabelFor(model => model.UserName)
     </div>
     <div class="editor-field">
-        @Html.EditorFor(model => model.UserName)
+        @Html.TextBoxBootStrap(model => model.UserName)
         @Html.ValidationMessageFor(model => model.UserName)
     </div>
 </div>
@@ -13,7 +13,8 @@
         @Html.LabelFor(model => model.UserPass)
     </div>
     <div class="editor-field">
-        @Html.EditorFor(model => model.UserPass)
+        @*@Html.EditorFor(model => model.UserPass, new { @class="form-control"})*@
+        @Html.PasswordFor(model => model.UserPass, new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.UserPass)
     </div>
 </div>
@@ -22,7 +23,7 @@
         @Html.LabelFor(model => model.Email)
     </div>
     <div class="editor-field">
-        @Html.EditorFor(model => model.Email)
+        @Html.TextBoxBootStrap(model => model.Email)
         @Html.ValidationMessageFor(model => model.Email)
     </div>
 </div>
@@ -40,7 +41,7 @@
         @Html.LabelFor(model => model.UserDesc)
     </div>
     <div class="editor-field">
-        @Html.TextBoxFor(model => model.UserDesc, new { style = "width:450px" })
+        @Html.TextBoxBootStrap(model => model.UserDesc)
         @Html.ValidationMessageFor(model => model.UserDesc)
     </div>
 </div>
