@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Navigation>
+<ul class="nav bs-sidenav" id="leftnav">
+    @if (Model != null)
+    {
+        foreach (var item in Model.GroupBy(s => s.Module))
+        {
+        <li class="active"><a href="#">@item.Key</a>
+            <ul class="nav">
+                @foreach (var listItem in item.OrderBy(m => m.Order))
+                {
+                    <li class="">
+                        @Html.ActionLink(listItem.Page, listItem.Action, listItem.Controller) </li>
+                }
+            </ul>
+        </li>
+        }
+    }
+</ul>

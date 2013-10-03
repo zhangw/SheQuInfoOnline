@@ -1,0 +1,55 @@
+﻿@model SheQuInfo.Models.Model.User
+<div class="layout-onecolumn">
+    <div class="editor-label">
+        @Html.LabelFor(model => model.UserName)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.UserName)
+        @Html.ValidationMessageFor(model => model.UserName)
+    </div>
+</div>
+<div class="layout-onecolumn">
+    <div class="editor-label">
+        @Html.LabelFor(model => model.UserPass)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.UserPass)
+        @Html.ValidationMessageFor(model => model.UserPass)
+    </div>
+</div>
+<div class="layout-onecolumn">
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Email)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.Email)
+        @Html.ValidationMessageFor(model => model.Email)
+    </div>
+</div>
+@*<div class="layout-onecolumn">
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Department)
+    </div>
+    <div class="editor-field">
+        @Html.DropDownListFor(model => model.Department, BindDropdown.Deptments(), "")
+        @Html.ValidationMessageFor(model => model.Department)
+    </div>
+</div>*@
+<div class="layout-twocolumn">
+    <div class="editor-label">
+        @Html.LabelFor(model => model.UserDesc)
+    </div>
+    <div class="editor-field">
+        @Html.TextBoxFor(model => model.UserDesc, new { style = "width:450px" })
+        @Html.ValidationMessageFor(model => model.UserDesc)
+    </div>
+</div>
+<div class="layout-onecolumn">
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Roles)
+    </div>
+    <div class="editor-field">
+        @*@Html.ListBox("Roles", ViewBag.Roles as IEnumerable<SelectListItem>)*@
+        @Html.DropDownList("Roles", "")
+    </div>
+</div>

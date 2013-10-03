@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheQuInfo", "SheQuInfo\SheQuInfo.csproj", "{1624D11D-65DF-49D3-8224-D61245CB575D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheQuInfo.Web", "SheQuInfo.Web\SheQuInfo.Web.csproj", "{EDC84589-F356-443F-9FB0-2B835B56A1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheQuInfo.Models", "SheQuInfo.Models\SheQuInfo.Models.csproj", "{F969DF69-86BB-43FF-98EC-7C8CF5D1CC72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheQuInfo.Mvc.Utility", "Wedo.Mvc.Utility\SheQuInfo.Mvc.Utility.csproj", "{D6D5E51D-FB2D-4B66-8495-F4F898B64739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheQuInfo.Utility", "Wedo.Utility\SheQuInfo.Utility.csproj", "{BBEAEFA5-9032-4134-B9EB-F98537F036DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheQuInfo.Test", "SheQuInfo.Test\SheQuInfo.Test.csproj", "{72C305A8-8BCC-4A53-A241-B2C375A7A90C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD0E45D9-21F7-4ADC-BAC9-2278FB266621}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SheQuInfo.vsmdi = SheQuInfo.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SheQuInfo.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1624D11D-65DF-49D3-8224-D61245CB575D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1624D11D-65DF-49D3-8224-D61245CB575D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1624D11D-65DF-49D3-8224-D61245CB575D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1624D11D-65DF-49D3-8224-D61245CB575D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC84589-F356-443F-9FB0-2B835B56A1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC84589-F356-443F-9FB0-2B835B56A1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC84589-F356-443F-9FB0-2B835B56A1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC84589-F356-443F-9FB0-2B835B56A1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F969DF69-86BB-43FF-98EC-7C8CF5D1CC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F969DF69-86BB-43FF-98EC-7C8CF5D1CC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F969DF69-86BB-43FF-98EC-7C8CF5D1CC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F969DF69-86BB-43FF-98EC-7C8CF5D1CC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D5E51D-FB2D-4B66-8495-F4F898B64739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D5E51D-FB2D-4B66-8495-F4F898B64739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D5E51D-FB2D-4B66-8495-F4F898B64739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D5E51D-FB2D-4B66-8495-F4F898B64739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBEAEFA5-9032-4134-B9EB-F98537F036DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEAEFA5-9032-4134-B9EB-F98537F036DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEAEFA5-9032-4134-B9EB-F98537F036DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEAEFA5-9032-4134-B9EB-F98537F036DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C305A8-8BCC-4A53-A241-B2C375A7A90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C305A8-8BCC-4A53-A241-B2C375A7A90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C305A8-8BCC-4A53-A241-B2C375A7A90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C305A8-8BCC-4A53-A241-B2C375A7A90C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

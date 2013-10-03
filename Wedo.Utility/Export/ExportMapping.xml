@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Objects>
+  <object>
+    <name>MDM_Customer_SapInfo</name>
+    <encoding>utf-8</encoding>
+    <params>
+      <param ExportColName="VKORG" PropertyName="CutomerOwner" OrderNum="10" DefaultValue="2010"  SourceLength="4"  Length="4" NeedProcess="false"/>
+      <param ExportColName="VTWEG" PropertyName="County" OrderNum="20" DefaultValue="10" SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="SPART" PropertyName="SPART" OrderNum="30" DefaultValue="00" SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="KTOKD" PropertyName="KTOKD" OrderNum="40" DefaultValue="0001" SourceLength="4" Length="4" NeedProcess="false"/>
+      <param ExportColName="ALTKN" PropertyName="ProcessID" OrderNum="50" DefaultValue="" FrontSub="false" SourceLength="13" Length="10" NeedProcess="true"/>
+      
+      <param ExportColName="SORT1" PropertyName="SORT1" OrderNum="60" DefaultValue="" SourceLength="20" Length="20" NeedProcess="false"/>
+      <param ExportColName="SORT2" PropertyName="LegacySystemCustomerNo" OrderNum="70" DefaultValue="" SourceLength="20" Length="20" NeedProcess="true"/>
+      <param ExportColName="NAME1" PropertyName="CompanyName" OrderNum="80" DefaultValue="" SourceLength="40" Length="40" NeedProcess="true"/>
+      <param ExportColName="NAME2" PropertyName="CompanyName" OrderNum="90" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="NAME3" PropertyName="CompanyName" OrderNum="100" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="NAME4" PropertyName="CompanyName" OrderNum="110" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="NATION" PropertyName="CompanyName" OrderNum="111" DefaultValue="" SourceLength="1" Length="1" NeedProcess="false"/>
+      <param ExportColName="NAME5" PropertyName="CompanyNameEn" OrderNum="112" DefaultValue="" SourceLength="40" Length="40" NeedProcess="true"/>
+      <param ExportColName="NAME6" PropertyName="CompanyNameEn" OrderNum="113" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="NAME7" PropertyName="CompanyNameEn" OrderNum="114" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="NAME8" PropertyName="CompanyNameEn" OrderNum="115" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      
+      <param ExportColName="HOUSE_NUM" PropertyName="CompanyName" OrderNum="120" DefaultValue=" " SourceLength="10" Length="10" NeedProcess="false"/>
+      <param ExportColName="STRAS"  PropertyName="RegisterAddress" OrderNum="130" DefaultValue=" " SourceLength="60" Length="60" NeedProcess="true"/>
+      <param ExportColName="STRAS2" PropertyName="RegisterAddress" OrderNum="140" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="STRAS3" PropertyName="RegisterAddress" OrderNum="150" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="STRAS4" PropertyName="RegisterAddress" OrderNum="160" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="STRAS5" PropertyName="RegisterAddress" OrderNum="170" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="PSTLZ" PropertyName="PostCode" OrderNum="180" DefaultValue=" " SourceLength="10" Length="10" NeedProcess="true"/>
+      <param ExportColName="PFACH" PropertyName="PostCode" OrderNum="190" DefaultValue=" " SourceLength="10" Length="10" NeedProcess="false"/>
+      <param ExportColName="PSTL2" PropertyName="PostCode" OrderNum="200" DefaultValue=" " SourceLength="10" Length="10" NeedProcess="false"/>
+      <param ExportColName="POBOX_LOC" PropertyName="PostCode" OrderNum="210" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="ORT01" PropertyName="City" OrderNum="220" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="true"/>
+      <param ExportColName="ORT02" PropertyName="City" OrderNum="230" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+
+      <param ExportColName="REGIO" PropertyName="Province" OrderNum="240" DefaultValue=" " SourceLength="3" Length="3" NeedProcess="true"/>
+      <param ExportColName="LAND1" PropertyName="County" OrderNum="250" DefaultValue=" " SourceLength="3" Length="40" NeedProcess="true"/>
+      <param ExportColName="HOME_CITY" PropertyName="City" OrderNum="260" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="TRANSPZONE" PropertyName="City" OrderNum="270" DefaultValue=" " SourceLength="10" Length="10" NeedProcess="false"/>
+      <param ExportColName="SPRAS" PropertyName="City" OrderNum="280" DefaultValue=" " SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="TELF1" PropertyName="Telephone" OrderNum="290" DefaultValue=" " SourceLength="30" Length="30" NeedProcess="true"/>
+      <param ExportColName="TELFX" PropertyName="Fax" OrderNum="300" DefaultValue=" " SourceLength="30" Length="30" NeedProcess="true"/>
+      <param ExportColName="EMAIL" PropertyName="City" OrderNum="310" DefaultValue=" " SourceLength="241" Length="241" NeedProcess="false"/>
+      <param ExportColName="REMARK" PropertyName="City" OrderNum="320" DefaultValue=" " SourceLength="50" Length="50" NeedProcess="false"/>
+      <param ExportColName="LIFNR" PropertyName="City" OrderNum="330" DefaultValue=" " SourceLength="10" Length="10" NeedProcess="false"/>
+      <param ExportColName="STCEG" PropertyName="TaxCode" OrderNum="340" DefaultValue=" " SourceLength="20" Length="20" NeedProcess="true"/>
+      <param ExportColName="BRSCH" PropertyName="Industry" OrderNum="350" DefaultValue=" " SourceLength="4" Length="4" NeedProcess="true"/>
+      <param ExportColName="KUKLA" PropertyName="City" OrderNum="360" DefaultValue=" " SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="BRAN1" PropertyName="City" OrderNum="370" DefaultValue=" " SourceLength="10" Length="10" NeedProcess="false"/>
+      <param ExportColName="ZTERM" PropertyName="City" OrderNum="380" DefaultValue="CCIA" SourceLength="4" Length="4" NeedProcess="false"/>
+      <param ExportColName="ZWELS" PropertyName="TaxCode" OrderNum="390" DefaultValue=" " SourceLength="10" Length="10" NeedProcess="false"/>
+      <param ExportColName="C_NAMEV" PropertyName="City" OrderNum="400" DefaultValue=" " SourceLength="35" Length="35" NeedProcess="false"/>
+      <param ExportColName="C_NAME1" PropertyName="Contact" OrderNum="410" DefaultValue=" " SourceLength="35" Length="35" NeedProcess="true"/>
+      <param ExportColName="C_TELF1" PropertyName="Telephone" OrderNum="411" DefaultValue=" " SourceLength="16" Length="16" NeedProcess="true"/>
+      <param ExportColName="C_SMTP_ADDR" PropertyName="Email" OrderNum="412" DefaultValue=" " SourceLength="241" Length="241" NeedProcess="true"/>
+      <param ExportColName="C_ABTNR" PropertyName="TaxCode" OrderNum="420" DefaultValue=" " SourceLength="4" Length="4" NeedProcess="false"/>
+      <param ExportColName="C_PAFKT" PropertyName="City" OrderNum="430" DefaultValue=" " SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="HKONT" PropertyName="Account" OrderNum="440" DefaultValue=" " SourceLength="10" Length="10" NeedProcess="true"/>
+      <param ExportColName="ZUAWA" PropertyName="TaxCode" OrderNum="450" DefaultValue=" " SourceLength="3" Length="3" NeedProcess="false"/>
+      <param ExportColName="MAHNA" PropertyName="TaxCode" OrderNum="460" DefaultValue=" " SourceLength="4" Length="4" NeedProcess="false"/>
+
+      <param ExportColName="BUSAB" PropertyName="Contact" OrderNum="470" DefaultValue=" " SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="XAUSZ" PropertyName="TaxCode" OrderNum="480" DefaultValue="2" SourceLength="1" Length="1" NeedProcess="false"/>
+      <param ExportColName="VKBUR" PropertyName="City" OrderNum="490" DefaultValue=" " SourceLength="4" Length="4" NeedProcess="false"/>
+      <param ExportColName="BZIRK" PropertyName="Account" OrderNum="500" DefaultValue=" " SourceLength="6" Length="6" NeedProcess="false"/>
+      <param ExportColName="KDGRP" PropertyName="TaxCode" OrderNum="510" DefaultValue=" " SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="KVGR5" PropertyName="KeyAccount" OrderNum="511" DefaultValue=" " SourceLength="3" Length="3" NeedProcess="false"/>    
+      <param ExportColName="WAERS" PropertyName="CurrencyType" OrderNum="520" DefaultValue=" " SourceLength="5" Length="5" NeedProcess="true"/>
+      <param ExportColName="KONDA" PropertyName="Contact" OrderNum="530" DefaultValue=" " SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="KALKS" PropertyName="TaxCode" OrderNum="540" DefaultValue="1" SourceLength="1" Length="1" NeedProcess="false"/>
+      <param ExportColName="PLTYP" PropertyName="City" OrderNum="550" DefaultValue="08" SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="VERSG" PropertyName="Account" OrderNum="560" DefaultValue="1" SourceLength="1" Length="1" NeedProcess="false"/>
+      <param ExportColName="LPRIO" PropertyName="TaxCode" OrderNum="570" DefaultValue=" " SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="VSBED" PropertyName="CurrencyType" OrderNum="580" DefaultValue="C3" SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="ANTLF" PropertyName="Contact" OrderNum="590" DefaultValue=" " SourceLength="1" Length="1" NeedProcess="false"/>
+      <param ExportColName="AUTLF" PropertyName="Contact" OrderNum="600" DefaultValue=" " SourceLength="1" Length="1" NeedProcess="false"/>
+      <param ExportColName="KZTLF" PropertyName="Contact" OrderNum="610" DefaultValue=" " SourceLength="1" Length="1" NeedProcess="false"/>
+      <param ExportColName="KZAZU" PropertyName="Contact" OrderNum="620" DefaultValue="X" SourceLength="1" Length="1" NeedProcess="false"/>
+      <param ExportColName="INCO1" PropertyName="Contact" OrderNum="630" DefaultValue=" " SourceLength="3" Length="3" NeedProcess="false"/>
+      <param ExportColName="INCO2" PropertyName="Contact" OrderNum="640" DefaultValue=" " SourceLength="28" Length="28" NeedProcess="false"/>
+      <param ExportColName="KKBER" PropertyName="Contact" OrderNum="650" DefaultValue=" " SourceLength="4" Length="4" NeedProcess="false"/>
+      <param ExportColName="KTGRD" PropertyName="Contact" OrderNum="660" DefaultValue="01" SourceLength="2" Length="2" NeedProcess="false"/>
+
+      <param ExportColName="TAXKD" PropertyName="Contact" OrderNum="670" DefaultValue=" " SourceLength="1" Length="1" NeedProcess="false"/>
+      <param ExportColName="INVSUMROLE" PropertyName="Contact" OrderNum="680" DefaultValue=" " SourceLength="1" Length="1" NeedProcess="false"/>
+      <param ExportColName="MINRNR" PropertyName="Contact" OrderNum="690" DefaultValue=" " SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="PINRNR" PropertyName="Contact" OrderNum="700" DefaultValue=" " SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="BANKS" PropertyName="Contact" OrderNum="710" DefaultValue=" " SourceLength="3" Length="3" NeedProcess="false"/>
+      <param ExportColName="BANKL" PropertyName="TaxBank" OrderNum="720" DefaultValue=" " SourceLength="15" Length="15" NeedProcess="true"/>
+      <param ExportColName="BANKA" PropertyName="TaxBank" OrderNum="721" DefaultValue=" " SourceLength="60" Length="60" NeedProcess="true"/>     
+      <param ExportColName="BANKN" PropertyName="TaxBank" OrderNum="730" DefaultValue=" " SourceLength="18" Length="18" NeedProcess="false"/>
+      <param ExportColName="KOINH" PropertyName="TaxBank" OrderNum="740" DefaultValue=" " SourceLength="60" Length="60" NeedProcess="true"/>
+      <param ExportColName="BKONT" PropertyName="Contact" OrderNum="750" DefaultValue=" " SourceLength="2" Length="2" NeedProcess="false"/>
+      <param ExportColName="J_1ILCTNO" PropertyName="Contact" OrderNum="760" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="J_1ILSTNO" PropertyName="Contact" OrderNum="770" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="J_1ISERN" PropertyName="Contact" OrderNum="780" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+
+      <param ExportColName="J_1IEXCD" PropertyName="Contact" OrderNum="790" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="J_1IEXRN" PropertyName="Contact" OrderNum="800" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="J_1IEXRG" PropertyName="Contact" OrderNum="810" DefaultValue=" " SourceLength="60" Length="60" NeedProcess="false"/>
+      <param ExportColName="J_1IEXDI" PropertyName="Contact" OrderNum="820" DefaultValue=" " SourceLength="60" Length="60" NeedProcess="false"/>
+      <param ExportColName="J_1IEXCO" PropertyName="Contact" OrderNum="830" DefaultValue=" " SourceLength="60" Length="60" NeedProcess="false"/>
+      <param ExportColName="J_1IEXCICU" PropertyName="Contact" OrderNum="840" DefaultValue=" " SourceLength="1" Length="1" NeedProcess="false"/>
+      <param ExportColName="J_1IPANNO" PropertyName="Contact" OrderNum="850" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="J_1IPANREF" PropertyName="Contact" OrderNum="860" DefaultValue=" " SourceLength="40" Length="40" NeedProcess="false"/>
+      <param ExportColName="KUNNR" PropertyName="CustomerCode" OrderNum="870" DefaultValue=" " SourceLength="10" Length="10" NeedProcess="true"/>
+      <param ExportColName="TXJCD" PropertyName="Contact" OrderNum="880" DefaultValue=" " SourceLength="15" Length="15" NeedProcess="false"/>
+      <param ExportColName="VKGRP" PropertyName="Contact" OrderNum="890" DefaultValue=" " SourceLength="3" Length="3" NeedProcess="false"/>
+      <param ExportColName="XZVER" PropertyName="Contact" OrderNum="900" DefaultValue="X" SourceLength="1" Length="1" NeedProcess="false"/>
+    </params>
+  </object>
+</Objects>

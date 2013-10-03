@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Navigations>
+  <!--1抄表组人员，2督查科人员,3表务科人员,4计划经营科人员，5管网科人员，6工单管理员,7养护仓库管理员,8三来组人员,9营业仓库管理员,10系统管理员-->
+  <!--任务管理-->
+  <Navigation Controller="Ticket" Action="WarehouseManager" Module="任务管理" Page="发放水表" IsNav="true" Order="0100" Roles="|7|" />
+  <Navigation Controller="Ticket" Action="GWTask" Module="任务管理" Page="管网任务" IsNav="true" Order="0101" Roles="|5|" />
+  <Navigation Controller="ReadingConfirm" Action="Index" Module="任务管理" Page="营业仓库确认度数" IsNav="true" Order="0102" Roles="|9|" />
+  <Navigation Controller="Ticket" Action="EngineerTickets" Module="任务管理" Page="待回填工单" IsNav="true" Order="0103" Roles="|6|" />
+  <Navigation Controller="Ticket" Action="TicketManager" Module="任务管理" Page="未分配工单" IsNav="true" Order="0104" Roles="|6|" />
+  <Navigation Controller="WorkFlow" Action="MyApprovedTask" Module="任务管理" Page="我参与过的任务" IsNav="true" Order="0105" Roles="|1|2|3|4|5|6|7|8|9|" />
+
+  <!--权限管理-->
+  <Navigation Controller="User" Action="Index" Module="系统管理" Page="用户管理" IsNav="true" Order="0500" Roles="|10|" />
+
+  <!--报表模块-->
+  <Navigation Controller="Report" Action="TicketReport" Module="报表模块" Page="工单状态报表" IsNav="true" Order="0700" Roles="|1|2|3|4|5|6|7|8|9|10|" />
+  <Navigation Controller="Report" Action="ViewDeviceReport" Module="报表模块" Page="水表使用情况报表" IsNav="true" Order="0700" Roles="|1|2|3|4|5|6|7|8|9|10|" />
+  <Navigation Controller="Report" Action="MaintainceCompanyTicketReport" Module="报表模块" Page="养护公司工单报表" IsNav="true" Order="0700" Roles="|1|2|3|4|5|6|7|8|9|10|" />
+  <Navigation Controller="Report" Action="TicketReportOffice" Module="报表模块" Page="营业所工单报表" IsNav="true" Order="0700" Roles="|1|2|3|4|5|6|7|8|9|10|" />
+  <Navigation Controller="Report" Action="OfficeExceptionTicketReport" Module="报表模块" Page="营业所异常结单报表" IsNav="true" Order="0700" Roles="|1|2|3|4|5|6|7|8|9|10|" />
+  <Navigation Controller="Report" Action="TicketYHCompanyExceptionReport" Module="报表模块" Page="养护公司异常换表报表" IsNav="true" Order="0700" Roles="|1|2|3|4|5|6|7|8|9|10|" />
+</Navigations>

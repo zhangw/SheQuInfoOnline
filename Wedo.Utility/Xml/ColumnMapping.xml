@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<columns>
+	<column targetcolname="Industry" sourcecolname="Industry" />
+	<column targetcolname="CompanyName" sourcecolname="NameChinese" />
+	<column targetcolname="CompanyNameEn" sourcecolname="AccountName" />
+	<column targetcolname="UsedName" sourcecolname="DBAName" />
+	<column targetcolname="Telephone" sourcecolname="Phone" />
+	<column targetcolname="Fax" sourcecolname="Fax" />
+	<column targetcolname="County" sourcecolname="BillingAddressCountry" />
+	<column targetcolname="Province" sourcecolname="BillingAddressStateProvince" />
+	<column targetcolname="City" sourcecolname="BillingAddressCityChinese" />
+	<column targetcolname="PostCode" sourcecolname="BillingAddressPostalZipcode" />
+	<column targetcolname="BusinessAddress" sourcecolname="BillingAddressStreetChinese" />
+</columns>

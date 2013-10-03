@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Objects>
+	<object>
+		<name>KeyAccount</name>
+		<splitter>,</splitter>
+		<encoding>utf-8</encoding>
+		<params>
+			<param name="NameCn" type="System.String">NameCn</param>
+			<param name="NameEn" type="System.String">NameEn</param>
+			<param name="SapCode" type="System.String">SapCode</param>
+			<param name="Description" type="System.String">Description</param>
+			<param name="IsActive" type="System.Boolean">IsActive</param>
+		</params>
+	</object>
+  <object>
+    <name>DPELCustomer</name>
+    <splitter>Customer_EN,Customer_CN</splitter>
+    <encoding>utf-8</encoding>
+    <params>
+      <param name="CustomerName" type="System.String">CustomerName</param>
+      <param name="Address" type="System.String">Address</param>
+      <param name="Language" type="System.Int32">Language</param>
+    </params>
+  </object>
+</Objects>

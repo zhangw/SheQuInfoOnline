@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ExportMap>
+  <!--从文件导入或批量导入账单时作对照表使用-->
+  <BankData>
+    <Field Name="BankName" Text="银行名称" />
+    <Field Name="ReceiveType" Text="收款类型" />
+    <Field Name="ReceiveDate" Text="到账日期" />
+    <Field Name="Payer" Text="付款人" />
+    <Field Name="Currency" Text="币种" />
+    <Field Name="BankPaidIn" Text="银行实收金额" />
+    <Field Name="LCNumber" Text="交易附言" />
+    <Field Name="TradeAddionalComment" Text="交易附言2" />
+    <Field Name="BankRemarkNum" Text="银行备注号码" />
+    <Field Name="BankServiceFee" Text="银行手续费" />
+  </BankData>
+
+  <AnalyticBankData>
+    <Field Name="Assiginment" Text="Assiginment" />
+    <Field Name="DocumentNo" Text="DocumentNo" />
+  </AnalyticBankData>
+  
+  <!--收款凭证文件-->
+  <RecieveVoucher>
+    <Field Name="Posting" Text="posting key"></Field>
+    <Field Name="NewCompanyCode" Text="new company code"></Field>
+    <Field Name="Account" Text="account"></Field>
+    <Field Name="Amount" Text="amount"></Field>
+    <Field Name="Cctr" Text="cctr"></Field>
+    <Field Name="Pctr" Text="pctr"></Field>
+    <Field Name="LineText" Text="line text"></Field>
+    <Field Name="Order" Text="order"></Field>
+    <Field Name="Spe" Text="Spe. G/L"></Field>
+    <Field Name="AssetCode" Text="Asset Code"></Field>
+    <Field Name="TaxCode" Text="tax code"></Field>
+    <Field Name="Plant" Text="plant"></Field>
+    <Field Name="Quantity" Text="quantity"></Field>
+    <Field Name="Uom" Text="UOM"></Field>
+    <Field Name="Personnel" Text="personnel number"></Field>
+    <Field Name="Functionnal" Text="functional area"></Field>
+    <Field Name="DistChannel" Text="dist channel"></Field>
+    <Field Name="SalesOffice" Text="sales office"></Field>
+    <Field Name="Country" Text="country"></Field>
+    <Field Name="Cust" Text="customer"></Field>
+    <Field Name="Assignment" Text="Assignment"></Field>
+  </RecieveVoucher>
+</ExportMap>

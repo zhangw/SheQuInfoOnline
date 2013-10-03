@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentTypes>
+	<ContentType value="application/vnd.ms-excel">XLS</ContentType>
+	<ContentType value="application/vnd.ms-excel">XLSX</ContentType>
+	<ContentType value="application/vnd.ms-excel">CSV</ContentType>
+	<ContentType value="application/vnd.ms-word">DOC</ContentType>
+	<ContentType value="application/vnd.ms-word">DOCX</ContentType>
+	<ContentType value="image/jpeg">JPG</ContentType>
+	<ContentType value="image/gif">GIF</ContentType>
+	<ContentType value="application/octet-stream">OTHER</ContentType>	
+</ContentTypes>

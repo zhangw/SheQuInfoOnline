@@ -1,0 +1,8 @@
+﻿<ul class="nav navbar-nav navbar-right">
+    <li>
+        @if (Request.IsAuthenticated)
+        {
+            <span class="navbar-brand">欢迎您,<strong>@User.Identity.Name</strong>!</span>
+        }</li>
+    <li class="">@Html.ActionLink("注销", "LogOff", "Account")</li>
+</ul>
